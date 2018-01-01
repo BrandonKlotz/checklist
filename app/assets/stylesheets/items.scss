@@ -2,9 +2,36 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.row.item {
+.item-container {
   display: flex;
-  justify-content: center;
-  flex-direction: space-between;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.item-container:hover {
   background-color: #efefef;
+  border-radius: 5px;
+}
+
+.item-content, .item-btn {
+  display: flex;
+  padding: 1em;
+}
+
+.item-content {
+  flex-direction: column;
+}
+
+.item-btn {
+  flex-direction: row;
+}
+
+.flex-container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+i {
+  margin: 1em;
 }
