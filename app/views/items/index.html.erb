@@ -3,7 +3,7 @@
   <% @items.each do |item| %>
     <% if item.completed? %>
 
-    <div class="flex-container">
+    <div class="container">
       <div class="item-container">
         <div class="item-content">
           <h2 style="opacity: 0.5;"><strike><%= link_to item.title, item %></strike></h2>
