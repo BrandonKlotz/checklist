@@ -1,24 +1,30 @@
-# README
+# Checklist
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Application that allows users to create items for their personal checklist. Users are only able to view the items that they have created. Items can be marked as complete, edited, and deleted. *Pretty much Facebook*.
 
-Things you may want to cover:
+### Up and Running
 
-* Ruby version
+```
+git clone git://github.com/brandonklotz/checklist.git
+cd checklist
+bundle install
+```
 
-* System dependencies
+### Usage
 
-* Configuration
+The app will default to run on localhost:3000.
 
-* Database creation
+`rails s`
 
-* Database initialization
+### New Things I Used
 
-* How to run the test suite
+- [Ruby on Rails](http://rubyonrails.org)
+- [Rails Bootstrap](https://github.com/twbs/bootstrap-sass)
+- [Simple Form](https://github.com/plataformatec/simple_form)
+- [Devise](https://github.com/plataformatec/devise)
 
-* Services (job queues, cache servers, search engines, etc.)
+### Coolest Thing I Learned
 
-* Deployment instructions
+`rake routes` is sweet.
 
-* ...
+![Rake Routes]()
