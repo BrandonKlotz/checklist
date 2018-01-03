@@ -27,4 +27,4 @@ The app will default to run on localhost:3000.
 
 `rake routes` is sweet.
 
-![Rake Routes]()
+![Rake Routes](https://raw.githubusercontent.com/BrandonKlotz/checklist/master/app/assets/images/rake_routes.png)
